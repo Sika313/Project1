@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Delete_user</title>
+        <meta name="viewport" content="width=device-width,initial-schale=1.0" />
+        <link rel="stylesheet" type="text/css" href="person.css" />
+    
+    </head>
+    <body>
+        <%- include ('nav_bar.ejs') -%>
+        <p>Enter the details of person you want to delete</p>
+        <form method="POST" action="/delete_user" class="person_form">
+            <input type="text" name="fname_d" placeholder="First name" class="person_input" /> <br />
+            <input type="text" name="lname_d" placeholder="Last name" class="person_input" /> <br />
+            <input type="text" name="age_d" placeholder="age" class="person_input" /> <br />
+            <input type="submit" value="Delete" class="save_button" />
+        </form>
+     
+    </body>
+</html>

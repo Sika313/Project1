@@ -1,0 +1,30 @@
+body{
+    background: rgb(33, 26, 64);
+    padding-top: 20px;
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+    color: blue;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.person_form{
+    text-align: center;
+}
+.person_input{
+    width: 40%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.save_button{
+    background: grey;
+    width: 10%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+}

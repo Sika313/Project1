@@ -1,0 +1,19 @@
+body{
+    background: rgb(33, 26, 64);
+    font-family: sans-serif;
+    text-align: justify;
+  
+}
+h1{
+    font-size: 48px;
+    color: blue;
+}
+
+ol{
+    background: white;
+    border: 2px solid grey;
+    width: 30%;
+}
+li{
+    font-size: 25px;
+}
