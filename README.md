@@ -14,5 +14,5 @@ To use the app
 2. Install node.
 3. Download the repository.
 4. Open command prompt or windows powershell and navigate to the folder.
-5 Run the command 'node app'.
+5. Run the command 'node app'.
 6. Open a browser and  enter the address 'localhost:3000'.
