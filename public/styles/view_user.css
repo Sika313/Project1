@@ -2,7 +2,7 @@ body{
     background: rgb(33, 26, 64);
     font-family: sans-serif;
     text-align: justify;
-  
+
 }
 h1{
     font-size: 48px;
@@ -20,6 +20,6 @@ li{
 
 img{
     border: 2px solid grey;
-    width: 300px;
+    width: 50%;
     height: 200px;
 }

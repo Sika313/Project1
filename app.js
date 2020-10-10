@@ -1,6 +1,6 @@
 const express = require('express');
 const routes = require('./connections/routes');
-const delete_route = require('./connections/delete_route')
+const delete_route = require('./connections/delete_route');
 
 var app = express();
 app.set('view engine', 'ejs');

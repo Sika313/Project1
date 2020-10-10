@@ -2,16 +2,18 @@
 <html>
     <head>
         <title>person</title>
-        <meta name="viewport" content="width=device-width,initial-schale=1.0" />
-        <link rel="stylesheet" type="text/css" href="person.css" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="/styles/person.css" />
     </head>
     <body>
         <%- include ('nav_bar') -%>
         <h1>Add User</h1>
-        <form method="POST" action="/" class="person_form">
+        <form method="POST" action="/" enctype="multipart/form-data" class="person_form">
             <input type="text" name="fname" placeholder="First name" class="person_input" /> <br />
             <input type="text" name="lname" placeholder="Last name" class="person_input" /> <br />
             <input type="text" name="age" placeholder="age" class="person_input" /> <br />
+            <p> Choose profile picture.</p>
+            <input type="file" name="user_img" value="SELECT PICTURE" /> <br /> <br />
             <input type="submit" value="Save" class="save_button" />
         </form>
     </body>

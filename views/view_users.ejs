@@ -2,16 +2,17 @@
 <html>
     <head>
         <title>View_users</title>
-        <meta name="viewport" content="width=device-width,initial-schale=1.0" />
-        <link rel="stylesheet" type="text/css" href="view_user.css" />
-        
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="/styles/view_user.css" />
+
     </head>
     <body>
         <%- include ('nav_bar.ejs') -%>
         <h1>Users</h1>
         <ol>
             <% data.forEach(function(record){ %>
-                <li> <b>Name:</b> <%= record.fname %> <%= record.lname %> <br /> <b>Age:</b><%= record.age %> </li> <br /><br />
+                <li> <img src="/uploads/<%= record.img_path %>" alt="FAILED TO LOAD IMAGE" /> <br />
+                   <b>Name:</b> <%= record.fname %> <%= record.lname %> <br /> <b>Age:</b><%= record.age %> </li> <br /><br />
             <% }) %>
         </ol>
     </body>
